@@ -1,0 +1,501 @@
+
+<!-- Version: 0.9.4 (build #dcaa3875fc7d7a0480bd0d689c7e32bfbdead443) | Tue Mar 21 2017 2:48 -->
+<!doctype html>
+<html lang="">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title></title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+      <!-- Fav icons compatible with all major browsers and devices -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <!-- toolkit styles -->
+  <link rel="stylesheet" href="https://static.victoria.ac.nz/toolkit.min.css">
+  <!-- /toolkit styles -->
+
+</head>
+
+
+<body>
+
+
+<!-- If 'fabricator=true' is present in page's annotation. -->
+
+<!-- If 'fabricator=false' is present or attribute is not present at all in the annotation. -->
+
+<div class="global" id="global-nav">
+
+    <div class="menu-toggle horisontal-links">
+        <a href="javascript:void(0);"><div class="logo-mini">&nbsp;</div></a>
+        <!-- <a href="javascript:void(0);" class="icon-2x icon-menu js-toggle-global-nav align-right"></a> -->
+        <!-- <a href="javascript:void(0);" class="lines-button x js-toggle-global-nav align-right" role="button" aria-label="Toggle Navigation"><span class="lines"></span></a> -->
+        <a href="javascript:void(0);" class="js-toggle-global-nav" role="button" aria-label="Toggle Navigation">
+
+    			<span class="tcon tcon-menu--xcross" aria-label="toggle menu" style="float:right;">
+    			  <span class="tcon-menu__lines" aria-hidden="true"></span>
+    			  <span class="tcon-visuallyhidden">toggle menu</span>
+    			</span>
+
+        </a>
+        <!-- <div class="mobile logo-mini"></div> -->
+    </div>
+
+    <div class="menu">
+        <nav>
+            <div class="search">
+                <form method="get" action="http://victoria.ac.nz/search">
+                    <div role="search">
+                        <a href="javascript:void(0);" class="js-toggle-global-search hide-on-mobile">
+    						<span class="tcon tcon-search--xcross " aria-label="toggle search">
+    						  <span class="tcon-search__item" aria-hidden="true"></span>
+    						  <span class="tcon-visuallyhidden">toggle search</span>
+    						</span>
+                        </a>
+                        <!-- <a href="#" class="icon-search js-toggle-global-search hide-on-mobile"></a> -->
+                        <label class="input-wrapper -icon-search" id="global-search">
+
+                            <input type="text" autocomplete="off" name="q" placeholder="Search Victoria for…" required>
+                            <input type="submit" value="Go">
+
+                        </label>
+                    </div>
+                </form>
+
+                <div class="horisontal-links align-center hide-on-desktop">
+                    <a href="#"><span class="icon-home"></span>Home</a>
+                    <a href="#"><span class="icon-phone"></span>Contact</a>
+                </div>
+            </div>
+
+            <div id="menu">
+                <a href="index.html" class="home">
+                    <span class="icon-globe hanging-icon"></span>
+                    <span class="hide-on-desktop">CAD Research Cluster Documentation</span>
+                </a>
+                <a href="index.html">Cluster Description</a>
+                <a href="accessing-the-cluster.html">Acessing the Cluster</a>
+                <a href="basic-commands.html">Basic Commands</a>
+                <a href="running-jobs.html">Running Jobs</a>
+                <a href="parallel-processing.html">Parallel Processing</a>
+                <a href="managing-jobs.html">Managing Jobs</a>
+                <a href="using-containers.html">Using Containers</a>
+                <a href="examples.html">Examples</a>
+
+            </div>
+        </nav>
+        </div> 
+</div>
+<!-- Default fallback for header when not specified in the template. -->
+<header role="banner" class="site-header">
+    <div class="block centraliser">
+
+        <!-- Logotype -->
+        <div class="logo">
+            <a href="/" title="Victoria University of Wellington homepage">
+                <picture>
+                	<source media="(max-width: 43em)" srcset="images/logo-black-mini.svg" height="1">
+                    <source media="(max-width: 68em)" srcset="images/logo-white-portrait.svg">
+                    <img src="images/logo-white-full.svg" alt="Victoria University of Wellington - Te Whare Wānanga o te Ūpoko o te Ika a Māui">
+                </picture>
+            </a>
+        </div>
+
+        <!-- Introductory block -->
+        <div class="site-intro" id="myHeader">
+
+            <a href="#" title="homepage">
+                <h1>
+                  CAD Research Cluster Documentation
+                    <small lang="mi"> The CAD Cluster is a Slurm-based high-performance computing cluster at VUW </small>
+                </h1>
+            </a>
+        </div>
+
+    </div>
+</header>
+
+
+ <!-- 'Go up' button -->
+  <a href="javascript:;" id="btn-up" title="Go to the top of the page" class="btn-floating sticky bottom" tabindex="-1"><span class="icon-arrow-up"></span></a>
+
+  <!-- 'Edit page' button -->
+  <a href="/_edit" id="btn-admin" style="display: none;" title="Edit the page in Squiz administration" class="btn-floating top" tabindex="-1"><span class="icon-edit"></span></a>
+
+
+
+	
+
+<!-- 2) Sidebar + Content only -->
+<section class="layout centraliser block">
+  
+    <!-- Left 'submenu' column -->
+    <div class="sidebar"> 
+      
+        <nav class="site" role="navigation">
+            <a href="#" class="back hide-on-desktop">
+              <span class="icon-back hanging-icon"></span>
+              <div>
+
+              </div>
+            </a>
+          
+            <!-- <p>No Children</p> -->
+            <ul>
+              <!-- Parents in descending order -->
+              <li><a href="http://www.victoria.ac.nz/fhss">Faculty's Home</a></li>
+              <li><a href="http://www.victoria.ac.nz/fhss/about">About us</a></li>
+              <li><a href="http://www.victoria.ac.nz/fhss/about/committees-boards">Committees and boards</a></li>
+          
+              <li>
+          
+                <!-- Previous page -->
+                <!-- <a href="http://www.victoria.ac.nz/fhss/about/committees-boards">Committees and boards</a> -->
+          
+                <!-- Subpages -->
+                <ul>
+          
+                  <li>
+          
+                    <!-- Parent page -->
+                    <a href="index.html">
+                      Cluster Description
+                    </a>
+          
+                    <!-- All the children -->
+                    <ul>
+                      <li>
+                        <a href="accessing-the-cluster.html" >
+                          Accessing the cluster
+                        </a>
+                      </li>
+                      <li>
+                        <a href="basic-commands.html" >
+                          Basic commands
+                        </a>
+                      </li>
+                      <li>
+                        <a href="running-jobs.html">
+                          Running jobs
+                        </a>
+                      </li>
+                          <li >
+                        <a href="pages/parallel-processing.html" class="selected">
+                          Parallel processing
+                        </a>
+                      </li>
+                      <li>
+                        <a href="managing-jobs.html">
+                          Managing jobs
+                        </a>
+                      </li>
+                      <li>
+                        <a href="using-containers.html">
+                          Using containers
+                        </a>
+                      </li>
+                      <li>
+                        <a href="examples.html">
+                          Examples
+                        </a>
+                      </li>
+
+                    </ul>
+                  </li>
+          
+                </ul>
+          
+              </li>
+            </ul>
+          </nav>
+          
+    </div>
+
+    <style>
+        .grid figure {
+          cursor: pointer;
+        }
+      </style>
+  
+    <!-- Center 'content' and right 'widget' columns -->
+    <div class="content-panel">
+
+
+<!-- Center 'content' and right 'widget' columns -->
+<main>
+<div class="block formatting">
+
+<div class="homepage-base layout">
+  <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+
+<h1 id="parallel-processing">Parallel processing</h1>
+
+<p>Running a job in parallel is a great way to utilize the power of the cluster.  So what is a parallel job/workflow?</p>
+
+<ul>
+  <li>Loosely-coupled jobs (sometimes referred to as embarrassingly or naively parallel jobs) are processes in which multiple instances of the same program execute on multiple data files simultaneously, with each instance running independently from others on its own allocated resources (i.e. CPUs and memory). Slurm job arrays offer a simple mechanism for achieving this.</li>
+  <li>Multi-threaded programs that include explicit support for shared memory processing via multiple threads of execution (e.g. Posix Threads or OpenMP) running across multiple CPU cores.</li>
+  <li>Distributed memory programs that include explicit support for message passing between processes (e.g. MPI). These processes execute across multiple CPU cores and/or nodes, these are often referred to as tightly-coupled jobs.</li>
+  <li>GPU (graphics processing unit) programs including explicit support for offloading to the device via languages like CUDA or OpenCL.</li>
+</ul>
+
+<p>It is important to understand the capabilities and limitations of an application in order to fully leverage the parallel processing options available on the cluster. For instance, many popular scientific computing languages like Python, R, and Matlab now offer packages that allow for GPU, multi-core or multithreaded processing, especially for matrix and vector operations</p>
+
+<h4 id="job-array-example">Job Array Example</h4>
+<p>Here is an example of running a job array to run 50 simultaneous processes:</p>
+
+<p><code class="highlighter-rouge">sbatch array.sh</code></p>
+
+<p>The contents of the array.sh batch script looks like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="c">#!/bin/bash</span>
+  <span class="c">#SBATCH -a 1-50</span>
+  <span class="c">#SBATCH --cpus-per-task=1</span>
+  <span class="c">#SBATCH --mem-per-cpu=2G</span>
+  <span class="c">#SBATCH --time=00:10:00</span>
+  <span class="c">#SBATCH --partition=main</span>
+  <span class="c">#SBATCH --mail-type=BEGIN,END,FAIL</span>
+  <span class="c">#SBATCH --mail-user=me@email.com</span>
+
+  bash addit.sh
+
+</code></pre></div></div>
+
+<p>So what do these parameter mean?:</p>
+
+<ul>
+  <li><em>-a</em> sets this up as a parallel array job (this sets up the “loop” that will be run</li>
+  <li><em>–cpus-per-task</em> requests the number of CPUs per array task, in this case I just want one CPU per task, we will use 50 in total</li>
+  <li><em>–mem-per-cpu</em> request 2GB of RAM per CPU, for this parallel job I will request a total of 100GB RAM (50 CPUs * 2GB RAM)</li>
+  <li><em>–time</em> is the max run time for this job, 10 minutes in this case</li>
+  <li><em>–partition</em> assigns this job to a partition</li>
+  <li><em>bash addit.sh</em> run the shell script: addit.sh</li>
+</ul>
+
+<p>You will notice that this batch script runs the program addit.sh and passes the argument $SLURM_ARRAY_TASK_ID, this variable contains the array number, 1-50 in this case,</p>
+
+<p>This is what the addit.sh script contains, it is a simple example but should show you how to run and use the job array and variables:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="c">#!/bin/bash</span>
+  <span class="nb">echo</span> <span class="s2">"The compute node this is running on is </span><span class="nv">$HOSTNAME</span><span class="s2">"</span>
+  <span class="c"># $1 is the variable containing the Task ID which was passed to this script as an argument</span>
+  <span class="c"># using the $SLURM_ARRAY_TASK_ID variable in the array.sh submit script</span>
+  <span class="nb">echo</span> <span class="s2">"Task ID is </span><span class="nv">$1</span><span class="s2">"</span>
+  <span class="c"># $RANDOM is a built-in pseudo random number generated number, we will add the Task ID to a random number</span>
+  <span class="nv">sum</span><span class="o">=</span><span class="sb">`</span>expr <span class="nv">$1</span> + <span class="nv">$RANDOM</span><span class="sb">`</span>
+  <span class="nb">echo</span> <span class="s2">"Output is </span><span class="nv">$sum</span><span class="s2">"</span>
+</code></pre></div></div>
+<div>
+<p>Running the array.sh script will cause the SLURM manager to spawn 50 parallel jobs.
+  <p> </div>
+
+<h4 id="multi-threaded-or-multi-processing-job-example">Multi-threaded or Multi-processing Job Example</h4>
+
+<p>Multi-threaded or multi-processing programs are applications that are able to execute in parallel across multiple CPU cores within a single node using a shared memory execution model. In general, a multi-threaded application uses a single process (aka “task” in Slurm) which then spawns multiple threads of execution. By default, Slurm allocates 1 CPU core per task. In order to make use of multiple CPU cores in a multi-threaded program, one must include the –cpus-per-task option.  Below is an example of a multi-threaded program requesting 12 CPU cores per task and a total of 8GB of memory. The program itself is responsible for spawning the appropriate number of threads.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="c">#!/bin/bash</span>
+  <span class="c">#SBATCH --nodes=1</span>
+  <span class="c">#SBATCH --ntasks=1</span>
+  <span class="c">#SBATCH --cpus-per-task=12 # 12 threads per task</span>
+  <span class="c">#SBATCH --time=02:00:00 # two hours</span>
+  <span class="c">#SBATCH --mem=8G</span>
+  <span class="c">#SBATCH --output=threaded.out</span>
+  <span class="c">#SBATCH --job-name=threaded</span>
+  <span class="c">#SBATCH --mail-type=BEGIN,END,FAIL</span>
+  <span class="c">#SBATCH --mail-user=me@email.com</span>
+  <span class="c"># Run multi-threaded application</span>
+  module load java/1.8.0-91
+  java <span class="nt">-jar</span> threaded-app.jar
+</code></pre></div></div>
+
+<h4 id="mpi-jobs">MPI Jobs</h4>
+
+<p>Most users do not require MPI to run their jobs but many do.  Please read on if you want to learn more about using MPI for tightly-coupled jobs.</p>
+
+<p>MPI (Message Passing Interface) code require special attention within Slurm. Slurm allocates and launches MPI jobs differently depending on the version of MPI used (e.g. OpenMPI, MPICH2). We recommend using OpenMPI version 2.1.1 or later to compile your C code (using mpicc) and then using the mpirun command in a batch submit script to launch parallel MPI jobs. The example below runs MPI code compiled by OpenMPI 2.1.1:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="c">#!/bin/bash</span>
+  <span class="c">#SBATCH --nodes=3</span>
+  <span class="c">#SBATCH --tasks-per-node=8 # 8 MPI processes per node</span>
+  <span class="c">#SBATCH --time=3-00:00:00</span>
+  <span class="c">#SBATCH --mem=4G # 4 GB RAM per node</span>
+  <span class="c">#SBATCH --output=mpi_job.log</span>
+  <span class="c">#SBATCH -p main</span>
+  <span class="c">#SBATCH --mail-type=BEGIN,END,FAIL</span>
+  <span class="c">#SBATCH --mail-user=me@email.com</span>
+
+  module load openmpi
+  <span class="nb">echo</span> <span class="nv">$SLURM_JOB_NODELIST</span>
+  mpirun <span class="nt">-np</span> 24 mpiscript.o
+
+</code></pre></div></div>
+
+<p>This example requests 3 nodes and 8 tasks (i.e. processes) per node, for a total of 24 tasks.  I use this number to tell mpirun how many processes to start, -np 24</p>
+
+<p>NOTE:  If using python or another language you will also need to add the –oversubscribe parameter to mpirun, eg.</p>
+
+<p><code class="highlighter-rouge">mpirun --oversubscribe -np 24 mpiscript.py</code></p>
+
+<p>More information about running MPI jobs within Slurm can be found here here: http://slurm.schedmd.com/mpi_guide.html.</p>
+
+</div>
+   
+   <br>
+   <br>
+   <br>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p class="copyright">CAD Research Cluster Documentation maintained by <a href="https://github.com/matty-plumski">matty-plumski</a></p>
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a><p>
+       
+      </footer>
+    </div>
+
+       </section>
+
+
+
+
+<!-- If 'fabricator=false' is present or attribute is not present at all in the annotation. -->
+
+<!-- Default fallback for footer when not specified in the template. -->
+<footer role="contentinfo">
+
+    <!-- Links and contacts that can vary between sub-sites -->
+    <section class="footer-secondary two-columns">
+        <div class="centraliser">
+
+            <!-- Sub-site's related or recommended links -->
+            <div class="block">
+
+                <h2>Useful links</h2>
+                <nav role="navigation">
+                    <ul role="menubar">
+                        <li>
+                            <a href="https://software-carpentry.org/" role="menuitem" >Software Carpentry</a>
+                        </li>
+                        <li>
+                            <a href="https://hpc-carpentry.github.io/" role="menuitem">HPC Carpentry</a>
+                        </li>
+                        <li>
+                            <a href="#" role="menuitem" title="Read PhD guidelines">PhD guidelines</a>
+                        </li>
+                        <li>
+                            <a href="#" role="menuitem" title="Read Contacts and directories">Contacts and directories</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+
+            </div>
+
+            <!-- Sub-site's related links -->
+            <div class="block contacts">
+
+                <a href="#" title="See more contact information" class="link-more">Other contacts</a>
+                <h2>Useful contacts</h2>
+
+                <address>
+
+                    <!-- Mail addresses -->
+                    <ul class="mails">
+                        <li>
+                            <a href="mailto:compute@victoria.ac.nz" title="Send an email to compute@victoria.ac.nz">compute@victoria.ac.nz</a>
+                        </li>
+                    </ul>
+                </address>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Related links from global site -->
+    <section class="footer-secondary">
+        <div class="centraliser">
+            <div class="block">
+                <h2>Victoria University</h2>
+
+                <nav role="navigation">
+                    <ul role="menubar">
+                        <li role="menuitem"><a href="#" role="menuitem" title="Read about ...">Faculties</a></li>
+                        <li role="menuitem"><a href="#" role="menuitem" title="Read about ...">Contacts and directories</a></li>
+                        <li role="menuitem"><a href="#" role="menuitem" title="Read about ...">Campuses</a></li>
+                        <li role="menuitem"><a href="#" role="menuitem" title="Read about ...">Study</a></li>
+                        <li role="menuitem"><a href="#" role="menuitem" title="Read about ...">Students</a></li>
+                        <li role="menuitem"><a href="#" role="menuitem" title="Read about ...">Students</a></li>
+                        <li role="menuitem"><a href="#" role="menuitem" title="Read about ...">Staff</a></li>
+                        <li role="menuitem"><a href="#" role="menuitem" title="Read about ...">Careers</a></li>
+                        <li role="menuitem"><a href="#" role="menuitem" title="Read about ...">Alumni</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meta-links and contacts that are shared between sub-sites -->
+    <section class="footer-primary">
+        <div class="centraliser">
+
+            <div class="block">
+
+                <!-- Smaller version of logotype -->
+                <div class="logo">
+                    <a href="/" title="Victoria University of Wellington homepage">
+                        <img class="logo"  src="images/logo-white-full.svg" alt="Victoria University of Wellington - Te Whare Wānanga o te Ūpoko o te Ika a Māui">
+                    </a>
+                </div>
+
+                <!-- Global contacts -->
+                <ul class="contacts">
+                    <li>
+                        <a title="Call Victoria about general enquiries" href="tel:+6444721000">+64 4 472 1000</a>
+                    </li>
+                    <li>
+                        <a title="Write Victoria an email" href="mailto:info@victoria.ac.nz">info@victoria.ac.nz</a>
+                    </li>
+                    <li>
+                        Enrolments: <a title="Call Victoria regarding enrolments" href="tel:+64800842867">0800 VICTORIA</a>
+                    </li>
+                    <li>
+                        Emergency: <a title="Call in case of emergency" href="tel:+6444639999">+64 4 463 9999</a> or ext. 8888 (internal)
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </section>
+
+</footer>
+
+
+<!-- List STYLES -->
+
+
+  <!-- jQuery -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script src="https://static.victoria.ac.nz/toolkit.min.js"></script>
+
+
+</body>
+</html>

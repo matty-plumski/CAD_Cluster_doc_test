@@ -1,0 +1,442 @@
+
+<!-- Version: 0.9.4 (build #dcaa3875fc7d7a0480bd0d689c7e32bfbdead443) | Tue Mar 21 2017 2:48 -->
+<!doctype html>
+<html lang="">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title></title>
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+      <!-- Fav icons compatible with all major browsers and devices -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <!-- toolkit styles -->
+  <link rel="stylesheet" href="https://static.victoria.ac.nz/toolkit.min.css">
+  <!-- /toolkit styles -->
+
+</head>
+
+
+<body>
+
+
+<!-- If 'fabricator=true' is present in page's annotation. -->
+
+<!-- If 'fabricator=false' is present or attribute is not present at all in the annotation. -->
+
+<div class="global" id="global-nav">
+
+    <div class="menu-toggle horisontal-links">
+        <a href="javascript:void(0);"><div class="logo-mini">&nbsp;</div></a>
+        <!-- <a href="javascript:void(0);" class="icon-2x icon-menu js-toggle-global-nav align-right"></a> -->
+        <!-- <a href="javascript:void(0);" class="lines-button x js-toggle-global-nav align-right" role="button" aria-label="Toggle Navigation"><span class="lines"></span></a> -->
+        <a href="javascript:void(0);" class="js-toggle-global-nav" role="button" aria-label="Toggle Navigation">
+
+    			<span class="tcon tcon-menu--xcross" aria-label="toggle menu" style="float:right;">
+    			  <span class="tcon-menu__lines" aria-hidden="true"></span>
+    			  <span class="tcon-visuallyhidden">toggle menu</span>
+    			</span>
+
+        </a>
+        <!-- <div class="mobile logo-mini"></div> -->
+    </div>
+
+    <div class="menu">
+        <nav>
+            <div class="search">
+                <form method="get" action="http://victoria.ac.nz/search">
+                    <div role="search">
+                        <a href="javascript:void(0);" class="js-toggle-global-search hide-on-mobile">
+    						<span class="tcon tcon-search--xcross " aria-label="toggle search">
+    						  <span class="tcon-search__item" aria-hidden="true"></span>
+    						  <span class="tcon-visuallyhidden">toggle search</span>
+    						</span>
+                        </a>
+                        <!-- <a href="#" class="icon-search js-toggle-global-search hide-on-mobile"></a> -->
+                        <label class="input-wrapper -icon-search" id="global-search">
+
+                            <input type="text" autocomplete="off" name="q" placeholder="Search Victoria for…" required>
+                            <input type="submit" value="Go">
+
+                        </label>
+                    </div>
+                </form>
+
+                <div class="horisontal-links align-center hide-on-desktop">
+                    <a href="#"><span class="icon-home"></span>Home</a>
+                    <a href="#"><span class="icon-phone"></span>Contact</a>
+                </div>
+            </div>
+
+            <div id="menu">
+                <a href="#" class="home">
+                    <span class="icon-globe hanging-icon"></span>
+                    <span class="hide-on-desktop">CAD Research Cluster Documentation</span>
+                </a>
+                <a href="#cluster-description">Cluster Description</a>
+                <a href="#accessing-the-cluster">Acessing the Cluster</a>
+                <a href="#basic-commands">Basic Commands</a>
+                <a href="#running-jobs">Running Jobs</a>
+                 <a href="#parallel-processing">Parallel Processing</a>
+                <a href="#managing-jobs">Managing Jobs</a>
+                <a href="#using-containers">Using Containers</a>
+                <a href="#examples">Examples</a>
+
+            </div>
+        </nav>
+        </div> 
+</div>
+<!-- Default fallback for header when not specified in the template. -->
+<header role="banner" class="site-header">
+    <div class="block centraliser">
+
+        <!-- Logotype -->
+        <div class="logo">
+            <a href="/" title="Victoria University of Wellington homepage">
+                <picture>
+                	<source media="(max-width: 43em)" srcset="images/logo-black-mini.svg" height="1">
+                    <source media="(max-width: 68em)" srcset="images/logo-white-portrait.svg">
+                    <img src="images/logo-white-full.svg" alt="Victoria University of Wellington - Te Whare Wānanga o te Ūpoko o te Ika a Māui">
+                </picture>
+            </a>
+        </div>
+
+        <!-- Introductory block -->
+        <div class="site-intro" id="myHeader">
+
+            <a href="#" title="homepage">
+                <h1>
+                  CAD Research Cluster Documentation
+                    <small lang="mi"> The CAD Cluster is a Slurm-based high-performance computing cluster at VUW </small>
+                </h1>
+            </a>
+        </div>
+
+    </div>
+</header>
+
+
+ <!-- 'Go up' button -->
+  <a href="javascript:;" id="btn-up" title="Go to the top of the page" class="btn-floating sticky bottom" tabindex="-1"><span class="icon-arrow-up"></span></a>
+
+  <!-- 'Edit page' button -->
+  <a href="/_edit" id="btn-admin" style="display: none;" title="Edit the page in Squiz administration" class="btn-floating top" tabindex="-1"><span class="icon-edit"></span></a>
+
+
+
+	
+
+<!-- 2) Sidebar + Content only -->
+<section class="layout centraliser block">
+  
+    <!-- Left 'submenu' column -->
+    <div class="sidebar"> 
+      
+        <nav class="site" role="navigation">
+            <a href="#" class="back hide-on-desktop">
+              <span class="icon-back hanging-icon"></span>
+              <div>
+
+              </div>
+            </a>
+          
+            <!-- <p>No Children</p> -->
+            <ul>
+              <!-- Parents in descending order -->
+              <li><a href="http://www.victoria.ac.nz/fhss">Faculty's Home</a></li>
+              <li><a href="http://www.victoria.ac.nz/fhss/about">About us</a></li>
+              <li><a href="http://www.victoria.ac.nz/fhss/about/committees-boards">Committees and boards</a></li>
+          
+              <li>
+          
+                <!-- Previous page -->
+                <!-- <a href="http://www.victoria.ac.nz/fhss/about/committees-boards">Committees and boards</a> -->
+          
+                <!-- Subpages -->
+                <ul>
+          
+                  <li>
+          
+                    <!-- Parent page -->
+                    <a href="index.html">
+                      Cluster Description
+                    </a>
+          
+                    <!-- All the children -->
+                    <ul>
+                      <li>
+                        <a href="accessing-the-cluster.html" class="selected">
+                          Accessing the cluster
+                        </a>
+                      </li>
+                      <li>
+                        <a href="basic-commands.html">
+                          Basic commands
+                        </a>
+                      </li>
+                      <li>
+                        <a href="running-jobs.html">
+                          Running jobs
+                        </a>
+                      </li>
+                          <li >
+                        <a href="parallel-processing.html">
+                          Parallel processing
+                        </a>
+                      </li>
+                      <li>
+                        <a href="managing-jobs.html" >
+                          Managing jobs
+                        </a>
+                      </li>
+                      <li>
+                        <a href="using-containers.html">
+                          Using containers
+                        </a>
+                      </li>
+                      <li>
+                        <a href="examples.html">
+                          Examples
+                        </a>
+                      </li>
+
+                    </ul>
+                  </li>
+          
+                </ul>
+          
+              </li>
+            </ul>
+          </nav>
+          
+    </div>
+
+    <style>
+        .grid figure {
+          cursor: pointer;
+        }
+      </style>
+  
+    <!-- Center 'content' and right 'widget' columns -->
+    <div class="content-panel">
+
+
+<!-- Center 'content' and right 'widget' columns -->
+<main>
+<div class="block formatting">
+
+<div class="homepage-base layout">
+  <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+
+<h1 id="accessing-the-cluster">Accessing the cluster</h1>
+
+<p><em>Access is via SSH</em></p>
+
+<ul>
+  <li>Hostname: 10.60.49.210</li>
+  <li>Port: 22</li>
+  <li>Username: Your VUW username</li>
+  <li>Password: Your cluster password</li>
+</ul>
+
+<p>Note: We recommend against saving your password within your SSH client, this is counter to security best-practice and will most likely cause issues in the future.</p>
+
+<h4 id="ssh-clients">SSH Clients</h4>
+<p><em>Mac OSX SSH Clients</em>
+You can use the built-in Terminal.app or you can download iTerm2 or XQuartz. XQuartz is required to be installed if you wish to forward GUI applications (matlab, rstudio, xstata, sas, etc), aka X forwarding.</p>
+
+<ul>
+  <li>Terminal.app is the default application for command-line interface
+    <ul>
+      <li>To login using the built-in Terminal.app on Mac, go to
+        <ul>
+          <li>Applications –&gt; Utilities –&gt; Terminal.app</li>
+          <li>Or use Spotlight search (aka Command-Space)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="https://www.iterm2.com/">iTerm2</a> is a good replacement for the default Terminal app</li>
+  <li><a href="https://www.xquartz.org/">XQuartz</a> is a Xforwarding application with its own terminal</li>
+</ul>
+
+<p>NOTE:  Once at the command prompt you can type the following to login (replace “username” with your VUW user):</p>
+
+<p><code class="highlighter-rouge">ssh username@10.60.49.210</code></p>
+
+<p><em>Windows SSH Clients</em></p>
+
+<ul>
+  <li>Free Clients:
+    <ul>
+      <li><a href="https://mobaxterm.mobatek.net/">MobaXterm</a> is a good option</li>
+      <li><a href="https://www.putty.org/">PuTTy</a></li>
+    </ul>
+  </li>
+  <li>There are also the XWin32 and SecureCRT clients, but these cost money to license.
+    <ul>
+      <li><a href="https://www.starnet.com/xwin32/">X-Win32</a></li>
+      <li><a href="https://www.vandyke.com/products/securecrt/">SecureCRT</a></li>
+    </ul>
+  </li>
+</ul>
+
+</div>
+   
+   
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p class="copyright">CAD Research Cluster Documentation maintained by <a href="https://github.com/matty-plumski">matty-plumski</a></p>
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a><p>
+       
+      </footer>
+    </div>
+
+       </section>
+
+
+
+
+<!-- If 'fabricator=false' is present or attribute is not present at all in the annotation. -->
+
+<!-- Default fallback for footer when not specified in the template. -->
+<footer role="contentinfo">
+
+    <!-- Links and contacts that can vary between sub-sites -->
+    <section class="footer-secondary two-columns">
+        <div class="centraliser">
+
+            <!-- Sub-site's related or recommended links -->
+            <div class="block">
+
+                <h2>Useful links</h2>
+                <nav role="navigation">
+                    <ul role="menubar">
+                        <li>
+                            <a href="https://software-carpentry.org/" role="menuitem" >Software Carpentry</a>
+                        </li>
+                        <li>
+                            <a href="https://hpc-carpentry.github.io/" role="menuitem">HPC Carpentry</a>
+                        </li>
+                        <li>
+                            <a href="#" role="menuitem" title="Read PhD guidelines">PhD guidelines</a>
+                        </li>
+                        <li>
+                            <a href="#" role="menuitem" title="Read Contacts and directories">Contacts and directories</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+
+            </div>
+
+            <!-- Sub-site's related links -->
+            <div class="block contacts">
+
+                <a href="#" title="See more contact information" class="link-more">Other contacts</a>
+                <h2>Useful contacts</h2>
+
+                <address>
+
+                    <!-- Mail addresses -->
+                    <ul class="mails">
+                        <li>
+                            <a href="mailto:compute@victoria.ac.nz" title="Send an email to compute@victoria.ac.nz">compute@victoria.ac.nz</a>
+                        </li>
+                    </ul>
+                </address>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Related links from global site -->
+    <section class="footer-secondary">
+        <div class="centraliser">
+            <div class="block">
+                <h2>Victoria University</h2>
+
+                <nav role="navigation">
+                    <ul role="menubar">
+                        <li role="menuitem"><a href="#" role="menuitem" title="Read about ...">Faculties</a></li>
+                        <li role="menuitem"><a href="#" role="menuitem" title="Read about ...">Contacts and directories</a></li>
+                        <li role="menuitem"><a href="#" role="menuitem" title="Read about ...">Campuses</a></li>
+                        <li role="menuitem"><a href="#" role="menuitem" title="Read about ...">Study</a></li>
+                        <li role="menuitem"><a href="#" role="menuitem" title="Read about ...">Students</a></li>
+                        <li role="menuitem"><a href="#" role="menuitem" title="Read about ...">Students</a></li>
+                        <li role="menuitem"><a href="#" role="menuitem" title="Read about ...">Staff</a></li>
+                        <li role="menuitem"><a href="#" role="menuitem" title="Read about ...">Careers</a></li>
+                        <li role="menuitem"><a href="#" role="menuitem" title="Read about ...">Alumni</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meta-links and contacts that are shared between sub-sites -->
+    <section class="footer-primary">
+        <div class="centraliser">
+
+            <div class="block">
+
+                <!-- Smaller version of logotype -->
+                <div class="logo">
+                    <a href="/" title="Victoria University of Wellington homepage">
+                        <img class="logo"  src="images/logo-white-full.svg" alt="Victoria University of Wellington - Te Whare Wānanga o te Ūpoko o te Ika a Māui">
+                    </a>
+                </div>
+
+                <!-- Global contacts -->
+                <ul class="contacts">
+                    <li>
+                        <a title="Call Victoria about general enquiries" href="tel:+6444721000">+64 4 472 1000</a>
+                    </li>
+                    <li>
+                        <a title="Write Victoria an email" href="mailto:info@victoria.ac.nz">info@victoria.ac.nz</a>
+                    </li>
+                    <li>
+                        Enrolments: <a title="Call Victoria regarding enrolments" href="tel:+64800842867">0800 VICTORIA</a>
+                    </li>
+                    <li>
+                        Emergency: <a title="Call in case of emergency" href="tel:+6444639999">+64 4 463 9999</a> or ext. 8888 (internal)
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </section>
+
+</footer>
+
+
+<!-- List STYLES -->
+
+
+  <!-- jQuery -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script src="https://static.victoria.ac.nz/toolkit.min.js"></script>
+
+
+</body>
+</html>
